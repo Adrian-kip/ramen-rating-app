@@ -1,0 +1,107 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    margin: 0;
+}
+body{
+    margin: 0;
+}
+
+#ramen-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#ramen-menu img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 0;
+}
+#ramen-detail {
+    margin: 20px 0;
+    padding: 10px;
+    width: 300px;
+    border-radius: 0;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ramen-info {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #f4f4f4;
+}
+
+#ramen-info img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.text-overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    width: 93%;
+    text-align: center;
+    padding: 10px;
+}
+
+#ramen-details-extra {
+    margin-top: 10px;
+}
+
+form {
+    margin: 20px auto;
+    width: 300px;
+    padding: 10px;
+}
+
+form h3 {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+textarea {
+    resize: both;
+}
+
+form button {
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
